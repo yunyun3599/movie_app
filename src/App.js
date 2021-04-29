@@ -28,7 +28,6 @@ class App extends React.Component{
           </div>
         ) : (
           <div className="movies">
-            <h1>update</h1>
             {movies.map(movie => (
               <Movie 
                key={movie.id}
